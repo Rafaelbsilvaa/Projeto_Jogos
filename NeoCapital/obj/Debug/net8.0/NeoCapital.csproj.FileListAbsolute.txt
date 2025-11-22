@@ -1,0 +1,14 @@
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\bin\Debug\net8.0\NeoCapital.exe
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\bin\Debug\net8.0\NeoCapital.deps.json
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\bin\Debug\net8.0\NeoCapital.runtimeconfig.json
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\bin\Debug\net8.0\NeoCapital.dll
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\bin\Debug\net8.0\NeoCapital.pdb
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.AssemblyInfo.cs
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.dll
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\refint\NeoCapital.dll
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.pdb
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.genruntimeconfig.cache
+C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\ref\NeoCapital.dll
