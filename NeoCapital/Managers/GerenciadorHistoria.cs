@@ -108,7 +108,7 @@ namespace NeoCapitalRPG
                     continue;
                 }
 
-                
+
                 if (UIHelper.EscreverTextoAnimadoSkippavel(linha))
                 {
                     skipado = true;
@@ -116,7 +116,8 @@ namespace NeoCapitalRPG
                 }
             }
 
-           
+
+            // Parar música do prólogo
             Program.AudioGlobal.Parar();
 
             if (skipado)
@@ -125,7 +126,15 @@ namespace NeoCapitalRPG
                 Thread.Sleep(600);
             }
 
-            
+            // ⚠ GARANTIR QUE O JOGADOR ESCOLHA A ARMA INICIAL SE PULOU O PRÓLOGO
+            if (Program.JogadorGlobal.ArmaEquipada == null)
+            {
+                Console.Clear();
+                Console.WriteLine("Antes de começar, escolha sua arma inicial:");
+                Program.GerenciadorInventarioGlobal.EscolherArmaInicial(Program.JogadorGlobal);
+            }
+
+            // Agora sim pode ir para o menu da viela
             Program.GerenciadorMenuGlobal.MenuViela(Program.JogadorGlobal);
         }
 

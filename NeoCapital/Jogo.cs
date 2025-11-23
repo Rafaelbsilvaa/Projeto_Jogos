@@ -37,15 +37,15 @@ namespace NeoCapitalRPG
 
             jogador = gerenciadorHistoria.CriarPersonagem();
 
-            // 🔥 REGISTRA o jogador e o menu para o sistema de skip
             Program.JogadorGlobal = jogador;
             Program.GerenciadorMenuGlobal = gerenciadorMenu;
-
+            Program.GerenciadorInventarioGlobal = gerenciadorInventario;
 
             gerenciadorHistoria.ExibirIntroducao();
 
             ExecutarLoopPrincipal();
         }
+
 
 
         private void ExecutarLoopPrincipal()

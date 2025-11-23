@@ -6,6 +6,7 @@ class Program
 
     public static GerenciadorMenu GerenciadorMenuGlobal;
     public static Personagem JogadorGlobal;
+    public static GerenciadorInventario GerenciadorInventarioGlobal;
 
     static void Main(string[] args)
     {
