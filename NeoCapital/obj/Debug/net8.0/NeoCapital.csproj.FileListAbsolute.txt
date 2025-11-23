@@ -12,3 +12,33 @@ C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\refint\NeoCapital.
 C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.pdb
 C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\NeoCapital.genruntimeconfig.cache
 C:\Users\rafae\Desktop\NeoCapital\NeoCapital\obj\Debug\net8.0\ref\NeoCapital.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NeoCapital.exe
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NeoCapital.deps.json
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NeoCapital.runtimeconfig.json
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NeoCapital.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NeoCapital.pdb
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.Asio.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.Core.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.Midi.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.Wasapi.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\NAudio.WinMM.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.csproj.AssemblyReference.cache
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.AssemblyInfoInputs.cache
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.AssemblyInfo.cs
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.csproj.CoreCompileInputs.cache
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.sourcelink.json
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.csproj.Up2Date
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\refint\NeoCapital.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.pdb
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\NeoCapital.genruntimeconfig.cache
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\obj\Debug\net8.0\ref\NeoCapital.dll
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\Batalha.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\Morte.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\opening.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\keyboard.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\City.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\FinalBom.mp3
+C:\Users\Claud\OneDrive\Área de Trabalho\Projeto_Jogos\NeoCapital\bin\Debug\net8.0\Assets\Musicas\FinalRuim.mp3

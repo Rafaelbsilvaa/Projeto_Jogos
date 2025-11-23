@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\managers\\gerenciadorhistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\managers\\gerenciadorhistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\helpers\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\helpers\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\service\\audioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\service\\audioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\managers\\gerenciadorfinais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\managers\\gerenciadorfinais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\managers\\gerenciadormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\managers\\gerenciadormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\systems\\sistemabatalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\systems\\sistemabatalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|c:\\users\\claud\\onedrive\\\u00E1rea de trabalho\\projeto_jogos\\neocapital\\neocapital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCB80C9A-75E5-4ABE-BDF3-F297B2FFBDBC}|NeoCapital\\NeoCapital.csproj|solutionrelative:neocapital\\neocapital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1107971758:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Program.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Program.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Program.cs",
+              "RelativeToolTip": "NeoCapital\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:38:11.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GerenciadorFinais.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorFinais.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Managers\\GerenciadorFinais.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorFinais.cs",
+              "RelativeToolTip": "NeoCapital\\Managers\\GerenciadorFinais.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:50:38.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Helpers\\UIHelper.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Helpers\\UIHelper.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Helpers\\UIHelper.cs",
+              "RelativeToolTip": "NeoCapital\\Helpers\\UIHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:49:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioService.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Service\\AudioService.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Service\\AudioService.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Service\\AudioService.cs",
+              "RelativeToolTip": "NeoCapital\\Service\\AudioService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:39:33.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenciadorHistoria.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorHistoria.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Managers\\GerenciadorHistoria.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorHistoria.cs",
+              "RelativeToolTip": "NeoCapital\\Managers\\GerenciadorHistoria.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:42:45.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Jogo.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Jogo.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Jogo.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Jogo.cs",
+              "RelativeToolTip": "NeoCapital\\Jogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T15:13:42.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SistemaBatalha.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Systems\\SistemaBatalha.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Systems\\SistemaBatalha.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Systems\\SistemaBatalha.cs",
+              "RelativeToolTip": "NeoCapital\\Systems\\SistemaBatalha.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAA/wAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:54:51.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GerenciadorMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorMenu.cs",
+              "RelativeDocumentMoniker": "NeoCapital\\Managers\\GerenciadorMenu.cs",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\Managers\\GerenciadorMenu.cs",
+              "RelativeToolTip": "NeoCapital\\Managers\\GerenciadorMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:42:50.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NeoCapital.csproj",
+              "DocumentMoniker": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\NeoCapital.csproj",
+              "RelativeDocumentMoniker": "NeoCapital\\NeoCapital.csproj",
+              "ToolTip": "C:\\Users\\Claud\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Jogos\\NeoCapital\\NeoCapital.csproj",
+              "RelativeToolTip": "NeoCapital\\NeoCapital.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T23:38:11.51Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

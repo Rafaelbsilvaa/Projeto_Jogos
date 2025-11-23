@@ -1,4 +1,6 @@
 ﻿using System;
+using NeoCapitalRPG;
+using NAudio.Wave;
 
 namespace NeoCapitalRPG
 {
@@ -64,45 +66,69 @@ namespace NeoCapitalRPG
             Console.Clear();
             UIHelper.ExibirArte("cidade");
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Pressione [P] a qualquer momento para pular o prólogo.\n");
+            Console.ResetColor();
+
+            Program.AudioGlobal.TocarMusica("Assets/Musicas/Keyboard.mp3", true);
+
             Console.WriteLine("═══ PRÓLOGO ═══\n");
 
-            string[] introducao = {
-                "O ano é 2147. A cidade Neo-Capital, construída sobre a antiga São Paulo,",
-                "está mais populosa do que nunca. Isso a faz entrar em um ciclo inquebrável de violência.",
-                "",
-                "Megacorporações, controladas por donos sem rosto, ditam tudo:",
-                "a comida, as informações… até o ar que você respira é monitorado.",
-                "",
-                "Não existem mais becos escuros, pois em cada esquina há um letreiro de neon",
-                "tentando chamar sua atenção. Também não existem mais locais seguros:",
-                "gangues cibernéticas extremamente violentas disputam o pouco de liberdade restante",
-                "contra drones e droids mercenários da polícia.",
-                "",
-                "É aí que você entra: um(a) caçador(a) de créditos que, após mais uma briga",
-                "genérica de bar, se vê preso em um dilema incomum.",
-                "",
-                "O problema? O mesmo dia se repete. Sempre.",
-                "",
-                "Toda vez que o sol 'nasce', você desperta na mesma viela suja,",
-                "com as mesmas oportunidades de luta.",
-                "",
-                "Talvez, se ficar forte o bastante, consiga abrir uma brecha e quebrar o ciclo..."
-            };
+            string[] introducao =
+            {
+        "O ano é 2147. A cidade Neo-Capital, construída sobre a antiga São Paulo,",
+        "está mais populosa do que nunca. Isso a faz entrar em um ciclo inquebrável de violência.",
+        "",
+        "Megacorporações, controladas por donos sem rosto, ditam tudo:",
+        "a comida, as informações… até o ar que você respira é monitorado.",
+        "",
+        "Não existem mais becos escuros, pois em cada esquina há um letreiro de neon",
+        "tentando chamar sua atenção. Também não existem mais locais seguros:",
+        "gangues cibernéticas extremamente violentas disputam o pouco de liberdade restante",
+        "contra drones e droids mercenários da polícia.",
+        "",
+        "É aí que você entra: um(a) caçador(a) de créditos que, após mais uma briga",
+        "genérica de bar, se vê preso em um dilema incomum.",
+        "",
+        "O problema? O mesmo dia se repete. Sempre.",
+        "",
+        "Toda vez que o sol 'nasce', você desperta na mesma viela suja,",
+        "com as mesmas oportunidades de luta.",
+        "",
+        "Talvez, se ficar forte o bastante, consiga abrir uma brecha e quebrar o ciclo..."
+    };
+
+            bool skipado = false;
 
             foreach (string linha in introducao)
             {
                 if (string.IsNullOrEmpty(linha))
                 {
                     Console.WriteLine();
+                    continue;
                 }
-                else
+
+                
+                if (UIHelper.EscreverTextoAnimadoSkippavel(linha))
                 {
-                    UIHelper.EscreverTextoAnimado(linha);
+                    skipado = true;
+                    break;
                 }
             }
 
-            UIHelper.AguardarContinuacao();
+           
+            Program.AudioGlobal.Parar();
+
+            if (skipado)
+            {
+                Console.WriteLine("\nPrólogo pulado!");
+                Thread.Sleep(600);
+            }
+
+            
+            Program.GerenciadorMenuGlobal.MenuViela(Program.JogadorGlobal);
         }
+
 
         public void ExibirInicioCiclo(int numeroCiclo)
         {
@@ -118,4 +144,3 @@ namespace NeoCapitalRPG
         }
     }
 }
-

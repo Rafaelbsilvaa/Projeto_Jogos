@@ -6,6 +6,7 @@ namespace NeoCapitalRPG
     public class SistemaBatalha
     {
         private Random random;
+        private AudioService audio = new AudioService(); 
 
         public SistemaBatalha()
         {
@@ -14,6 +15,10 @@ namespace NeoCapitalRPG
 
         public bool IniciarBatalha(Personagem jogador, Inimigo inimigo)
         {
+            
+            audio.TocarMusica("Assets/Musicas/Batalha.mp3", true);
+
+
             Console.WriteLine($"\n═══ BATALHA INICIADA ═══");
             Console.WriteLine($"Você enfrenta: {inimigo.Nome}");
             Console.WriteLine($"HP do Inimigo: {inimigo.HP}");
@@ -26,21 +31,23 @@ namespace NeoCapitalRPG
 
                 if (inimigo.HP <= 0)
                 {
+                    audio.Parar(); 
                     VitoriaJogador(jogador, inimigo);
                     return true;
                 }
 
                 TurnoInimigo(jogador, inimigo, defendendo);
 
-                //if (jogador.HP <= 0)
-                //{
-                //    DerrotaJogador();
-                //    return false;
-                //}
+                if (jogador.HP <= 0)
+                {
+                    audio.Parar(); 
+                    return false;
+                }
 
                 Thread.Sleep(1000);
             }
 
+            audio.Parar(); 
             return true;
         }
 
@@ -109,13 +116,13 @@ namespace NeoCapitalRPG
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"\n{inimigo.Nome} foi derrotado!");
             Console.ResetColor();
-        }
 
-        //private void DerrotaJogador()
-        //{
-        //    Console.ForegroundColor = ConsoleColor.Red;
-        //    Console.WriteLine("\nVocê foi derrotado...");
-        //    Console.ResetColor();
-        //}
+            //private void DerrotaJogador()
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine("\nVocê foi derrotado...");
+            //    Console.ResetColor();
+            //}
+        }
     }
 }

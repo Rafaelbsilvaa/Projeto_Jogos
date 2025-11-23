@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 
 namespace NeoCapitalRPG
 {
@@ -7,31 +6,35 @@ namespace NeoCapitalRPG
     {
         public bool VerificarFinais(Personagem jogador)
         {
-            if (jogador.XP <30 && jogador.CiclosCompletados >=6)
+            if (jogador.XP < 35 && jogador.CiclosCompletados >= 6)
             {
                 FinalMorte();
                 return true;
             }
 
-            if (jogador.XP >= 40 && jogador.HP > 0)
+            if (jogador.XP >= 50 && jogador.HP > 0)
             {
                 FinalBom();
                 return true;
             }
 
-            if (jogador.HP >= 20 && jogador.CiclosCompletados >= 7)
+            if (jogador.HP < 48 && jogador.CiclosCompletados > 6)
             {
                 FinalRuim();
                 return true;
             }
-
-            
 
             return false;
         }
 
         private void FinalBom()
         {
+            
+            Program.AudioGlobal.Parar();
+
+            
+            Program.AudioGlobal.TocarMusica("Assets/Musicas/FinalBom.mp3", loop: false);
+
             Console.Clear();
             UIHelper.ExibirArte("glitch");
 
@@ -63,6 +66,12 @@ namespace NeoCapitalRPG
 
         private void FinalRuim()
         {
+            
+            Program.AudioGlobal.Parar();
+
+            
+            Program.AudioGlobal.TocarMusica("Assets/Musicas/FinalRuim.mp3", loop: false);
+
             Console.Clear();
             UIHelper.ExibirArte("fantasma");
 
@@ -98,6 +107,12 @@ namespace NeoCapitalRPG
 
         private void FinalMorte()
         {
+          
+            Program.AudioGlobal.Parar();
+
+            
+            Program.AudioGlobal.TocarMusica("Assets/Musicas/Morte.mp3", loop: false);
+
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("═══ GAME OVER ═══\n");
