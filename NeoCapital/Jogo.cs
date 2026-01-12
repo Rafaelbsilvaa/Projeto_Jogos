@@ -7,7 +7,7 @@ namespace NeoCapitalRPG
         private Personagem jogador;
         private bool jogoAtivo;
 
-        // Gerenciadores
+        
         private GerenciadorHistoria gerenciadorHistoria;
         private GerenciadorInventario gerenciadorInventario;
         private SistemaBatalha sistemaBatalha;
@@ -34,11 +34,19 @@ namespace NeoCapitalRPG
         public void IniciarJogo()
         {
             UIHelper.ExibirTituloJogo();
+
             jogador = gerenciadorHistoria.CriarPersonagem();
+
+            Program.JogadorGlobal = jogador;
+            Program.GerenciadorMenuGlobal = gerenciadorMenu;
+            Program.GerenciadorInventarioGlobal = gerenciadorInventario;
+
             gerenciadorHistoria.ExibirIntroducao();
 
             ExecutarLoopPrincipal();
         }
+
+
 
         private void ExecutarLoopPrincipal()
         {

@@ -7,6 +7,9 @@ namespace NeoCapitalRPG
         private GerenciadorCenarios gerenciadorCenarios;
         private GerenciadorInventario gerenciadorInventario;
 
+       
+        private AudioService audioService = new AudioService();
+
         public GerenciadorMenu(GerenciadorCenarios gerenciadorCenarios, GerenciadorInventario gerenciadorInventario)
         {
             this.gerenciadorCenarios = gerenciadorCenarios;
@@ -15,6 +18,9 @@ namespace NeoCapitalRPG
 
         public void MenuViela(Personagem jogador)
         {
+            
+            audioService.TocarMusica("Assets/Musicas/City.mp3", loop: true);
+
             while (true)
             {
                 ExibirOpcoesMenu();
@@ -23,7 +29,9 @@ namespace NeoCapitalRPG
 
                 if (ProcessarEscolha(escolha, jogador))
                 {
-                    return; // Sai do menu para continuar o loop do jogo
+                    
+                    audioService.Parar();
+                    return;
                 }
             }
         }
@@ -45,10 +53,12 @@ namespace NeoCapitalRPG
             switch (escolha)
             {
                 case "1":
+                    audioService.Parar();
                     gerenciadorCenarios.IrParaFerroVelho(jogador);
                     return true;
 
                 case "2":
+                    audioService.Parar();
                     gerenciadorCenarios.IrParaMercadoAbandonado(jogador);
                     return true;
 

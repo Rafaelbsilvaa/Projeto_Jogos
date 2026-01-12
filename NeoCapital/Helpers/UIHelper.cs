@@ -7,6 +7,10 @@ namespace NeoCapitalRPG
     {
         public static void ExibirTituloJogo()
         {
+            
+            AudioService audio = new AudioService();
+            audio.TocarMusica("Assets/Musicas/opening.mp3", true);
+
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(@"
@@ -22,7 +26,11 @@ namespace NeoCapitalRPG
             Console.ResetColor();
             Console.WriteLine("\n                              Neo-Capital - Ano 2147");
             Console.WriteLine("\n                          Pressione ENTER para começar...");
+
             Console.ReadLine();
+
+            
+            audio.Parar();
         }
 
         public static void EscreverTextoAnimado(string texto, int delay = 30)
@@ -34,6 +42,32 @@ namespace NeoCapitalRPG
             }
             Console.WriteLine();
         }
+        public static bool EscreverTextoAnimadoSkippavel(string texto, int delay = 30)
+        {
+            foreach (char c in texto)
+            {
+                Console.Write(c);
+
+              
+                if (Console.KeyAvailable)
+                {
+                    var tecla = Console.ReadKey(true).Key;
+
+                    if (tecla == ConsoleKey.P)
+                    {
+                        Console.Write(texto.Substring(texto.IndexOf(c)));
+                        Console.WriteLine();
+                        return true; 
+                    }
+                }
+
+                Thread.Sleep(delay);
+            }
+
+            Console.WriteLine();
+            return false;
+        }
+
 
         public static void ExibirArte(string tipo)
         {
@@ -72,7 +106,7 @@ namespace NeoCapitalRPG
     ░  ║     ◊ NEON SIGNS ◊    ║ ░
     ░  ╚════════════════════════╝ ░
     ░  [Você está aqui]          ░
-    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                     ");
                     break;
 

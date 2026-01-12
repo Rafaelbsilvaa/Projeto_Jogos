@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeoCapital")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+370bed945aa1dd243df92795f9cfc093dd7364fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeoCapital")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeoCapital")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
